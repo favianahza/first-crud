@@ -1,0 +1,64 @@
+body{
+	margin-bottom: 70px;
+}
+
+/* TOPBAR */
+.topbar{
+	height: 50px; background-color: black;
+	position: absolute; top: 0; left: 0; right: 0;
+	border-bottom: 10px ridge grey;
+	box-sizing: border-box;
+}
+
+.topbar .sch input{
+	position: absolute; top: 0; left: 0;
+	margin: 9px 0px 0px 15px;
+}
+
+.topbar .sch .box-sch{
+	color: white; font-family: E-commerce;
+	font-size: 29px; background: black;
+	padding: 0px 0px 0px 0px; border: 0px solid black;
+	position: absolute; top: 0; left: 0;
+	margin: 4.25px 0px 0px 168px; transition: .4s;
+}
+
+.topbar .sch .box-sch:hover{
+	color: grey; transition: .2s; 
+}
+
+.topbar .user{
+	position: absolute; top: 0; right: 0;
+	color: white; margin: 2px 15px 0px 0px;
+	font: 16px/21px verdana; font-weight: bold;
+}
+
+.topbar .logout{
+	position: absolute; top: 0; right: 0;
+	color: white; margin: 23px 15px 0px 0px; 
+	transition: .4s; text-decoration: none;
+	font-family: verdana; font-size: 12px;
+	font-weight: bold;
+}
+
+.topbar .logout:hover{
+	color: grey; transition: .4s; text-decoration: underline;
+}
+
+
+/* CONTENT */
+.content{
+	width: 320px; margin: 190px 0px 0px 0px;
+	border: 10px inset black; padding: 5px 10px 5px 10px;
+}
+
+.content form label{
+	font: 16px/0px verdana; font-weight: bold;
+	text-shadow: 0px 0px 4px rgba(10,10,10,0.18);
+	margin: 0px 12px 0px 0px; text-align: center;
+}
+
+.content form input{
+	border-top: none; width: 180px; margin: 5px 0px 10px 0px;
+	border-right: none;
+}
