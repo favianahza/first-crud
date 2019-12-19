@@ -17,7 +17,7 @@ if ( isset($_POST["search"]) ){
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Football Player</title>
+	<title>Top Player</title>
 	<link rel="stylesheet" type="text/css" href="index.css?d=<?= time();  ?>">
 </head>
 <body><center>
