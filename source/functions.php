@@ -89,7 +89,7 @@ if( !in_array($ext, $valid_ext) ){
 }
 
 if( $file_size > 1000000 ){
-	echo "<script>alert('You image size is to much !')</script>";
+	echo "<script>alert('You image size is too big !')</script>";
 	return false;
 }
 
